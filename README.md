@@ -1,5 +1,5 @@
-base Packages
-=============
+ansible resolv
+==============
 [![Build Status](https://travis-ci.org/ypsman/ansible-resolv.svg?branch=master)](https://travis-ci.org/ypsman/ansible-resolv)
 
 config resolv.conf, DNS Nameserver and Domain.
