@@ -1,0 +1,7 @@
+---
+# defaults file for resolv
+resolv_dns_domain: ''
+resolv_searchpath: []
+resolv_dns_server:
+  - 8.8.8.8
+  - 8.8.4.4

@@ -1,0 +1,18 @@
+galaxy_info:
+  author: ypsman
+  description: config resolv.conf, DNS Nameserver and Domain
+  license: license (GPLv2, CC-BY, etc)
+  min_ansible_version: 1.2
+  platforms:
+  - name: Debian
+    versions:
+    - wheezy
+    - stretch
+  galaxy_tags:
+  - dns
+  - nameserver
+  - resolv
+  - resolver
+  - domain
+  - debian
+dependencies: []
