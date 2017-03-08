@@ -7,6 +7,7 @@ domain {{ resolv_dns_domain }}
 {% if resolv_searchpath %}
 search  {% for searchpath in resolv_searchpath %} {{ searchpath }} {% endfor %}
 {% endif %}
+
 {% for dns_server in resolv_dns_server %}
 nameserver {{ dns_server }}
 {% endfor %}
