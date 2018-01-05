@@ -29,7 +29,7 @@ script:
   - ansible-playbook tests/test.yml -i tests/inventory --syntax-check
 
   # run the role
-  - ansible-playbook tests/test.yml -i tests/inventory --connection=local
+  - ansible-playbook tests/test.yml -i tests/inventory --connection=local --sudo
 
   # check resolv.conf
   - cat /etc/resolv.conf | grep 8.8.8.8
