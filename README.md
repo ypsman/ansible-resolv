@@ -13,6 +13,7 @@ Example Playbook
         - role: ypsman.resolv
           resolv_dns_domain: 'mydomain.org'
           resolv_searchpath: ['mydomain.local', 'mydomain.org']
+          resolv_options: "rotate timeout:1"
           resolv_dns_server:
           - 8.8.8.8
           - 8.8.4.4
